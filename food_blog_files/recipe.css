@@ -1,0 +1,11 @@
+.jumbotron {
+	min-height: 500px;
+	background-image: url("images/shepherds-pie.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.recipe-text {
+	min-height: 600px;
+	background-color: skyblue
+}
