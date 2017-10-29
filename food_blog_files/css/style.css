@@ -1,43 +1,35 @@
-body, html {
-	height: 100%;
-	margin: 0;
+body {
+	padding-top: 70px;
+	line-height: 150%;
+	background-color: #fff;
 }
 
 h1 {
-  font-size: 60px;
+	text-align: center;
+	font-family:'Gloria Hallelujah', cursive;
+	font-size: 450%;
 }
 
-.nav-left {
-	font-size: 25px;
-	float: left;
-	margin-top: 05px;
-	padding-left: 20px;
-	padding-right: 20px;
+.navbar-default {
+	background-color: #fff;
 }
 
-.nav-right {
-	font-size: 35px;
-	float: right;
-	margin-top: 05px;
-	padding-left: 20px;
-	padding-right: 20px;
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #777;
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+.social .fa-twitter:hover {
+    color: #00ABE3;
 }
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
+.social .fa-facebook:hover {
+    color: #4060A5;
 }
 
-.fa {
-		padding: 15px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
 }
