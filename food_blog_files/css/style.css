@@ -4,11 +4,12 @@ body {
 	background-color: #fff;
 }
 
-h1 {
-	text-align: center;
-	font-family:'Gloria Hallelujah', cursive;
-	font-size: 450%;
-}
+#carousel-example-generic img {
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	max-width: 100%;
+	}
 
 .navbar-default {
 	background-color: #fff;
@@ -32,4 +33,40 @@ h1 {
 
 .social .fa-linkedin:hover {
     color: #0094BC;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 400%;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 200%;
+}
+
+.jumbotron {
+	padding-top: 250px;
+	padding-right: 30px;
+	padding-bottom: 250px;
+	padding-left: 80px;
+	background-image: url("../images/cover_photo_one.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+	padding-left: 80px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
 }
