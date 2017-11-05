@@ -1,27 +1,28 @@
-
-
 .recipe-text {
 	min-height: 600px;
 }
 
-.img-responsive {
- 	width: 400px;
-	padding: 10px 10px 10px 50px
-}
-
-.img-responsive-2 {
- 	width: 131px;
-}
- .shepherds-pie {
-	 padding: 50px 350px 10px 350px;
-	 background-color: #F0F8FF;
- }
-
- .recipe-header- {
-	min-height: 600px;
-	background-image: url(..images/veg-shep-pie-landscape.jpg);
+ .recipe-header {
+	min-height: 400px;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+.recipe-text {
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px
+}
+.img-responsive {
+ 	width: cover;
+}
+
+
+.container {
+	padding: 50px 50px 50px 50px;
+}
+
+#shep-pie-header {
+	background-image: url(rural-england.jpg);
 }
 
 h1 {
@@ -42,26 +43,12 @@ h3 {
 	color: black;
 }
 
-#recipe-text {
-	font-family: 'Dosis', sans-serif;
-	font-size: 15px
-}
 
-.right-column {
-	padding: 10px 10px 10px 10px
-}
-
-.container {
+#bottom-box {
 	padding: 50px 50px 50px 50px;
+	background-color: #FFF0F5;
+	text-align: center;
 }
 
-.bottom-box {
-	padding: 150px 150px 150px 150px;
-	background-color: red;
-	text-align: center;
-}
-.bottom-box h2 {
-	text-align: center;
-}
 
 
