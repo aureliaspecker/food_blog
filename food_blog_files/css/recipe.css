@@ -9,7 +9,7 @@
 }
 
 .recipe-text {
-	font-family: 'Dosis', sans-serif;
+	font-family: "Dosis", sans-serif;
 	font-size: 15px
 }
 .img-responsive {
@@ -20,24 +20,21 @@
 	padding: 50px 50px 50px 50px;
 }
 
-#shep-pie-header {
-	background-image: url(rural-england.jpg);
-}
 
 h1 {
-	font-family:'Cuprum', sans-serif;
+	font-family:"Cuprum", sans-serif;
 	color: black;
 	text-align: left;
 }
 
 h2 {
-	font-family:'Cuprum', sans-serif;
+	font-family:"Cuprum", sans-serif;
 	font-size: 26px;
 	color: black;
 }
 
 h3 {
-	font-family:'Cuprum', sans-serif;
+	font-family:"Cuprum", sans-serif;
 	font-size: 18px;
 	color: black;
 }
@@ -49,5 +46,8 @@ h3 {
 	text-align: center;
 }
 
+#shep-pie-header {
+	background-image: url("rural-england.jpg");
+}
 
 
