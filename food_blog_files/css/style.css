@@ -11,31 +11,7 @@ body {
 	max-width: 100%;
 	}
 
-.navbar-default {
-	background-color: #fff;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #777;
-}
-
-.social .fa-twitter:hover {
-    color: #00ABE3;
-}
-
-.social .fa-facebook:hover {
-    color: #4060A5;
-}
-
-.social .fa-google-plus:hover {
-    color: #e64522;
-}
-
-.social .fa-linkedin:hover {
-    color: #0094BC;
-}
-
-.jumbotron {
+.jumbotron-header {
 	padding-top: 250px;
 	padding-right: 30px;
 	padding-bottom: 250px;
@@ -47,7 +23,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-div.transbox {
+div.transbox-header {
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
@@ -55,7 +31,7 @@ div.transbox {
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-div.transbox h1, h2 {
+div.transbox-header h1, h2 {
 		margin: 4%;
 		font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
@@ -83,7 +59,7 @@ p {
 	line-height: 20px;
 }
 
-.container {
+.container-header {
 	padding-top: 20px;
 	padding-right: 30px;
 	padding-bottom: 70px;
@@ -91,4 +67,38 @@ p {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
+}
+
+.container-resources {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+	padding-left: 80px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #777;
+}
+
+.social .fa-twitter:hover {
+    color: #00ABE3;
+}
+
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
 }
