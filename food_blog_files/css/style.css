@@ -23,7 +23,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-div.transbox-header {
+.transbox-header {
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
@@ -31,12 +31,20 @@ div.transbox-header {
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-div.transbox-header h1, h2 {
+.transbox-header h1, h2 {
 		margin: 4%;
 		font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
     color: #000000;
 		text-align: center;
+}
+
+.row-form {
+	text-align: center;
+}
+
+.row {
+	background-color: #a9a3a2;
 }
 
 h1 {
