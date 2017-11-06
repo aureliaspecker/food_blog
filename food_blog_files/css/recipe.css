@@ -12,12 +12,21 @@
 	font-family: "Dosis", sans-serif;
 	font-size: 15px
 }
+
 .img-responsive {
  	width: cover;
 }
 
 .container {
 	padding: 50px 50px 50px 50px;
+}
+
+.left-column {
+	float: none;
+}
+
+.right-column {
+	float: none;
 }
 
 
@@ -47,7 +56,10 @@ h3 {
 }
 
 #shep-pie-header {
-	background-image: url("rural-england.jpg");
+	background-image: url("../images/rural-england.jpg");
 }
+
+
+
 
 
