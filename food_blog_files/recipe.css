@@ -1,0 +1,70 @@
+.recipe-text {
+	min-height: 600px;
+}
+
+.img-responsive {
+ 	width: 400px;
+	padding: 10px 10px 10px 50px
+}
+
+.img-responsive-2 {
+ 	width: 131px;
+}
+
+.shepherds-pie {
+	 padding: 50px 350px 10px 350px;
+	 background-color: #F0F8FF;
+ }
+
+.shepherds-pie {
+min-height: 600px;
+background-image: url('images/rural-england.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+
+.shepherds-pie h1 {
+	font-family:'Cuprum', sans-serif;
+	color: black;
+}
+
+.shepherds-pie h2 {
+	font-family:'Cuprum', sans-serif;
+	font-size: 26px;
+	color: black;
+}
+
+.shepherds-pie h3 {
+	font-family:'Cuprum', sans-serif;
+	font-size: 18px;
+	color: black;
+}
+
+#recipe-text {
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #777;
+}
+
+.social .fa-twitter:hover {
+    color: #00ABE3;
+}
+
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
+}
