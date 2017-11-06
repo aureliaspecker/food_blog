@@ -1,0 +1,65 @@
+.recipe-text {
+	min-height: 600px;
+}
+
+ .recipe-header {
+	min-height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.recipe-text {
+	font-family: "Dosis", sans-serif;
+	font-size: 15px
+}
+
+.img-responsive {
+ 	width: cover;
+}
+
+.container {
+	padding: 50px 50px 50px 50px;
+}
+
+.left-column {
+	float: none;
+}
+
+.right-column {
+	float: none;
+}
+
+
+h1 {
+	font-family:"Cuprum", sans-serif;
+	color: black;
+	text-align: left;
+}
+
+h2 {
+	font-family:"Cuprum", sans-serif;
+	font-size: 26px;
+	color: black;
+}
+
+h3 {
+	font-family:"Cuprum", sans-serif;
+	font-size: 18px;
+	color: black;
+}
+
+
+#bottom-box {
+	padding: 50px 50px 50px 50px;
+	background-color: #FFF0F5;
+	text-align: center;
+}
+
+#shep-pie-header {
+	background-image: url("../images/rural-england.jpg");
+}
+
+
+
+
+
