@@ -67,17 +67,7 @@ p {
 	line-height: 20px;
 }
 
-.container-header {
-	padding-top: 20px;
-	padding-right: 30px;
-	padding-bottom: 70px;
-	padding-left: 80px;
-	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 20px;
-}
-
-.container-resources {
+.container {
 	padding-top: 20px;
 	padding-right: 30px;
 	padding-bottom: 70px;

@@ -4,39 +4,46 @@
 
 	<head>
 		<title>Passport to my Kitchen</title>
-		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+		<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/recipe.css">
-		<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Latest compiled Bootstrap JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 	</head>
 
 <body>
 
+	<!-- England recipe header -->
 	<div class="recipe-header" id="shep-pie-header">
 		<div class="container">
     		<div class="row">
 				<div class= col-sm-4>
-					<img src='images/shep-pie-spoon.jpg' class= "img-responsive" alt= "Responsive image">
+					<img src='images/shepherds-pie.jpg' class= "img-responsive" alt= "Responsive image">
 				</div>
     			<div class= col-sm-5>
-    				<h1><strong>Veggie Shepherd's Pie</strong></h1>
-					<br>
-					<h2><strong>Serves 6 Cooks in 60 mins</strong></h2>
-					<br>	
-					<h3><strong>Food from Great Britain, at home</strong></h3>
+    			<h1><strong>Veggie Shepherd's Pie</strong></h1>
+					<h2><strong>Food from Great Britain, at home</strong></h2>
+					<h3><strong>Serves 6 Cooks in 60 mins</strong></h3>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- Shepherd's Pie Ingredients -->
 	<div class="recipe-text">
 		<div class="container">
 			<div class="row">
 				<div class="left-column">
 					<div class="col-sm-6">
 						<h2>Ingredients</h2>
+						<br/>
 						<ul>
 							<li>1 tbsp olive oil</li>
 							<li>1 large onion, halved and sliced</li>
@@ -53,24 +60,28 @@
 						</ul>
 					</div>
 				</div>
-					
+
+				<!-- Shepherd's Pie Photo 1 -->
 				<div class="col-sm-6">
 					<div class="right-column">
-						<img src="images/shepherds-pie.jpg" class="img-responsive">
+						<img src="images/shep-pie.jpg" class="img-responsive">
 					</div>
 				</div>
 			</div>
 
+			<!-- Shepherd's Pie Photo 2 -->
 			<div class="row">
 				<div class= "col-sm-6">
-					<div class="left-column">	
+					<div class="left-column">
 						<img src="images/veg-box-shepherds-pie.jpg" class="img-responsive">
 					</div>
 				</div>
-				
+
+				<!-- Shepherd's Pie Method -->
 				<div class="col-sm-6">
 					<div class="right-column">
 						<h2>Method</h2>
+						<br/>
 						<ol>
 							<li>
 								Heat the oil in a frying pan, then fry the onion until golden. Add the carrots and all but a sprinkling of thyme. Pour in the wine, 150ml water and the tomatoes, then sprinkle in the stock cubes and simmer for 10 mins. Tip in the can of lentils, including their juice, then cover and simmer for another 10 mins until the carrots still have a bit of bite and the lentils are pulpy.
@@ -84,12 +95,13 @@
 								Heat oven to 190C/170C fan/gas 5. Cook for 20 mins if cooking straight away, or for 40 mins from chilled, until golden and hot all the way through. Serve with broccoli.
 							</li>
 						</ol>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- Share to social media links -->
 	<div id="bottom-box">
 		<div class="container">
 			<h2>
@@ -100,5 +112,38 @@
 			</p>
 		</div>
 	</div>
+
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">Home</a>
+				</div>
+				<!-- menu items -->
+				<div class="collapse navbar-collapse" id="navbar1">
+						<ul class="nav navbar-nav">
+								<li class="active"><a href="shepherds-pie.html">England</a></li>
+								<li><a href="#">Switzerland</a></li>
+								<li><a href="#">India</a></li>
+								<li><a href="#">Denmark</a></li>
+						</ul>
+						<!-- social media icons -->
+						<ul class="nav navbar-nav navbar-right social">
+								<li><a href="https://twitter.com"><i class="fa fa-lg fa-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com"><i class="fa fa-lg fa-facebook"></i></a></li>
+								<li><a href="https://plus.google.com/discover"><i class="fa fa-lg fa-google-plus"></i></a></li>
+								<li><a href="https://www.linkedin.com"><i class="fa fa-lg fa-linkedin"></i></a></li>
+						</ul>
+				</div>
+			</div>
+		</header>
+
+	</nav>
 
 </body>

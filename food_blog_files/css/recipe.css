@@ -1,3 +1,9 @@
+body {
+	padding-top: 70px;
+	line-height: 150%;
+	background-color: #fff;
+}
+
 .recipe-text {
 	min-height: 600px;
 }
@@ -9,8 +15,8 @@
 }
 
 .recipe-text {
-	font-family: "Dosis", sans-serif;
-	font-size: 15px
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
 }
 
 .img-responsive {
@@ -29,26 +35,6 @@
 	float: none;
 }
 
-
-h1 {
-	font-family:"Cuprum", sans-serif;
-	color: black;
-	text-align: left;
-}
-
-h2 {
-	font-family:"Cuprum", sans-serif;
-	font-size: 26px;
-	color: black;
-}
-
-h3 {
-	font-family:"Cuprum", sans-serif;
-	font-size: 18px;
-	color: black;
-}
-
-
 #bottom-box {
 	padding: 50px 50px 50px 50px;
 	background-color: #FFF0F5;
@@ -59,7 +45,63 @@ h3 {
 	background-image: url("../images/rural-england.jpg");
 }
 
+#bottom-box {
+	background-color: #a9a3a2;
+}
 
+.navbar-default {
+	background-color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #777;
+}
 
+.social .fa-twitter:hover {
+    color: #00ABE3;
+}
 
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
+}
+
+h1 {
+	font-size: 400%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	line-height: 130%;
+}
+
+h2 {
+	font-size: 200%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
+
+h3 {
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
+
+p {
+	line-height: 20px;
+}
+
+#shep-pie-header img {
+	padding: 50px 10px 30px 10px;
+}
