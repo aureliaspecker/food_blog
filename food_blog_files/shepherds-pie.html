@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/recipe.css">
+		<script type="text/javascript" src="js/main.js"></script>
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Latest compiled Bootstrap JavaScript -->
@@ -20,7 +21,7 @@
 
 <body>
 
-	<!-- England recipe header -->
+	<!-- Recipe header -->
 	<div class="recipe-header" id="shep-pie-header">
 		<div class="container">
     		<div class="row">
@@ -36,7 +37,15 @@
 		</div>
 	</div>
 
-	<!-- Shepherd's Pie Ingredients -->
+	<!-- Mini Intro to recipe -->
+	<div id="intro">
+		<div class="container">
+			<h2>Shepherd's Pie</h2>
+				<p>[Insert a mini intro about shepherd's pies]</p>
+		</div>
+	</div>
+
+	<!-- Ingredients -->
 	<div class="recipe-text">
 		<div class="container">
 			<div class="row">
@@ -61,23 +70,23 @@
 					</div>
 				</div>
 
-				<!-- Shepherd's Pie Photo 1 -->
-				<div class="col-sm-6">
-					<div class="right-column">
+				<!-- Photo 1 -->
+				<div class="right-column">
+					<div class="col-sm-6">
 						<img src="images/shep-pie.jpg" class="img-responsive">
 					</div>
 				</div>
 			</div>
 
-			<!-- Shepherd's Pie Photo 2 -->
+			<!-- Photo 2 -->
 			<div class="row">
-				<div class= "col-sm-6">
-					<div class="left-column">
+				<div class="left-column">
+					<div class= "col-sm-6">
 						<img src="images/veg-box-shepherds-pie.jpg" class="img-responsive">
 					</div>
 				</div>
 
-				<!-- Shepherd's Pie Method -->
+				<!-- Method -->
 				<div class="col-sm-6">
 					<div class="right-column">
 						<h2>Method</h2>
@@ -101,17 +110,26 @@
 		</div>
 	</div>
 
+	<!-- Embedded map -->
+	<div id="map">
+		<div class=container>
+			<h2>Where to eat Shepherd's Pie in London</h2>
+			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1P5wIQYgajB9vWC9RAs7aPgpvx52BG20f" width="640" height="480"></iframe>
+		</div>
+	</div>
+
 	<!-- Share to social media links -->
 	<div id="bottom-box">
 		<div class="container">
-			<h2>
-				To learn more click here
-			</h2>
-			<p>
-				Social media buttons
-			</p>
-		</div>
-	</div>
+			<h3>Share This Recipe</h3>
+				<div class="social">
+	  			<a href="http://www.facebook.com/sharer.php?u=http://www.greenkitchenstories.com/" target="_blank"><i class="fa fa-lg fa-facebook"></i></a>
+	  			<a href="http://twitter.com/home/?status= Veggie Shepherds Pie Recipe from England %23passporttomykitchen http://www.greenkitchenstories.com/" target="_blank"><i class="fa fa-lg fa-twitter"></i></a>
+	  			<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.greenkitchenstories.com/"><i class="fa fa-lg fa-linkedin"></i></a>
+	  			<a href="https://plus.google.com/share?url=http://www.greenkitchenstories.com/"><i class="fa fa-lg fa-google-plus"></i></a>
+				</div>
+			</div>
+	  </div>
 
 	<!-- Navigation Bar -->
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">

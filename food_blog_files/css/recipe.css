@@ -35,9 +35,17 @@ body {
 	float: none;
 }
 
+.left-column .col-sm-6 {
+	padding: 0px;
+}
+
+.right-column .col-sm-6 {
+	padding: 0px;
+}
+
 #bottom-box {
 	padding: 50px 50px 50px 50px;
-	background-color: #FFF0F5;
+	background-color: #a9a3a2;
 	text-align: center;
 }
 
@@ -45,8 +53,11 @@ body {
 	background-image: url("../images/rural-england.jpg");
 }
 
-#bottom-box {
-	background-color: #a9a3a2;
+#intro {
+padding: 50px 50px 50px 50px;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-size: 20px;
 }
 
 .navbar-default {
@@ -104,4 +115,13 @@ p {
 
 #shep-pie-header img {
 	padding: 50px 10px 30px 10px;
+}
+
+.social a {
+  padding: 0.5em;
+}
+
+#map iframe {
+	width: 100%;
+	height: 450px;
 }
