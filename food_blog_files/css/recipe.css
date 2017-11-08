@@ -35,6 +35,14 @@ body {
 	float: none;
 }
 
+.left-column .col-sm-6 {
+	padding: 0px;
+}
+
+.right-column .col-sm-6 {
+	padding: 0px;
+}
+
 #bottom-box {
 	padding: 50px 50px 50px 50px;
 	background-color: #a9a3a2;
@@ -111,4 +119,9 @@ p {
 
 .social a {
   padding: 0.5em;
+}
+
+#map iframe {
+	width: 100%;
+	height: 450px;
 }
