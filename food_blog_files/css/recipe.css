@@ -37,16 +37,12 @@ body {
 
 #bottom-box {
 	padding: 50px 50px 50px 50px;
-	background-color: #FFF0F5;
+	background-color: #a9a3a2;
 	text-align: center;
 }
 
 #shep-pie-header {
 	background-image: url("../images/rural-england.jpg");
-}
-
-#bottom-box {
-	background-color: #a9a3a2;
 }
 
 .navbar-default {
@@ -104,4 +100,8 @@ p {
 
 #shep-pie-header img {
 	padding: 50px 10px 30px 10px;
+}
+
+.social a {
+  padding: 0.5em;
 }
