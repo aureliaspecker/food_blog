@@ -45,6 +45,13 @@ body {
 	background-image: url("../images/rural-england.jpg");
 }
 
+#intro {
+padding: 50px 50px 50px 50px;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-size: 20px;
+}
+
 .navbar-default {
 	background-color: #fff;
 	font-family: 'Quicksand', sans-serif;
