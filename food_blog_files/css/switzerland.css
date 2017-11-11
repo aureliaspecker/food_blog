@@ -31,13 +31,14 @@ body {
 	float: none;
 	text-align: left;
 	font-size: 18px;
+	line-height: 30px;
 }
 
 .right-column {
 	float: none;
 	text-align: left;
 	font-size: 18px;
-	line-height: 25px;
+	line-height: 30px;
 }
 
 .left-column .col-sm-6 {
@@ -56,8 +57,8 @@ body {
 	text-align: center;
 }
 
-#shep-pie-header {
-	background-image: url("../images/rural-england.jpg");
+#rosti-header {
+	background-image: url("../images/switzerland_background.jpg");
 }
 
 #intro {
@@ -131,7 +132,7 @@ p {
 	line-height: 30px;
 }
 
-#shep-pie-header img {
+#rosti-header img {
 	padding: 50px 10px 30px 10px;
 }
 
@@ -146,4 +147,33 @@ p {
 
 .row {
 	background-color: transparent;
+}
+
+.experts-tips button{
+	background-color: #000;
+	border: none;
+	color: #FFF;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.experts-tips {
+	color: white;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: #777;
+  	color: #FFF;
+    font-size: 25px;
+		font-family: 'Quicksand', sans-serif;
+		text-align: center;
+		line-height: 150%;
 }
