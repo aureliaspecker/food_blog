@@ -38,7 +38,7 @@ body {
 	float: none;
 	text-align: left;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 25px;
 }
 
 .left-column .col-sm-6 {
@@ -198,10 +198,10 @@ p {
 }
 
 .text {
-padding-bottom: 5px;
+ padding-bottom: 5px;
  white-space: nowrap;
  color: black;
- font-size: 30px;
+ font-size: 20px;
  position: absolute;
  overflow: hidden;
  top: 50%;
