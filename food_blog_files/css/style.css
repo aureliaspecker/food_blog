@@ -89,6 +89,10 @@ p {
     color: #00ABE3;
 }
 
+.social .fa-instagram:hover {
+    color: #bc2a8d;
+}
+
 .social .fa-facebook:hover {
     color: #4060A5;
 }
@@ -97,6 +101,3 @@ p {
     color: #e64522;
 }
 
-.social .fa-linkedin:hover {
-    color: #0094BC;
-}
