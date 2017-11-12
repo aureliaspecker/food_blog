@@ -20,8 +20,15 @@
 
 
 /* HOVER OVER */
+
+
+.hello-eleanor:hover .overlay {
+ height: 30%;
+ visibility: visible;
+}
+
 .overlay {
- position: absolute;
+ position:relative;
  bottom: 0;
  left: 0;
  right: 0;
@@ -33,16 +40,12 @@
  transition: .5s ease;
 }
 
-.hello-eleanor:hover .overlay {
- height: 30%;
-}
-
 .text {
 padding-bottom: 5px;
  white-space: nowrap;
  color: black;
  font-size: 30px;
- position: absolute;
+ position: relative;
  overflow: hidden;
  top: 50%;
  left: 50%;
