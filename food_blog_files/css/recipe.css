@@ -85,12 +85,12 @@ font-size: 20px;
     color: #4060A5;
 }
 
-.social .fa-google-plus:hover {
+.social .fa-envelope:hover {
     color: #e64522;
 }
 
-.social .fa-linkedin:hover {
-    color: #0094BC;
+.social .fa-instagram:hover {
+    color: #bc2a8d
 }
 
 #bottom-box .fa {
