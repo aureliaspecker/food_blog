@@ -192,6 +192,8 @@ p {
 .row:hover .overlay {
  height: 30%;
 }
-
-
+#myDropdown {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
 
