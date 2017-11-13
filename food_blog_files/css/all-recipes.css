@@ -29,7 +29,7 @@
 }
 
 .overlay-text {
-	visibility: hidden;
+	visibility: visible;
 	vertical-align: middle;
 }
 
